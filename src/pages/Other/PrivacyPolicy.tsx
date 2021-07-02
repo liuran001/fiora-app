@@ -13,7 +13,7 @@ type Props = {
 
 function PrivacyPolicy({ visible, onClose }: Props) {
     function handleClickPrivacyPolicy() {
-        Linking.openURL('https://fiora.suisuijiang.com/PrivacyPolicy.html');
+        Linking.openURL('http://chat.qqcn.xyz:9200/PrivacyPolicy.html');
     }
 
     async function handleAgree() {
