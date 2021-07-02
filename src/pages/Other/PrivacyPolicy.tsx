@@ -13,7 +13,7 @@ type Props = {
 
 function PrivacyPolicy({ visible, onClose }: Props) {
     function handleClickPrivacyPolicy() {
-        Linking.openURL('http://chat.qqcn.xyz:9200/PrivacyPolicy.html');
+        Linking.openURL('https://chat.qqcn.xyz/PrivacyPolicy.html');
     }
 
     async function handleAgree() {
