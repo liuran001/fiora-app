@@ -14,9 +14,9 @@ export default function Image({ src, width = '100%', height = '100%', style }: P
     if (typeof src === 'string') {
         let prefix = '';
         if (src.startsWith('//')) {
-            prefix = 'http:';
+            prefix = 'https:';
         } else if (src.startsWith('/')) {
-            prefix = 'http://chat.qqcn.xyz:9200';
+            prefix = 'https://chat.qqcn.xyz';
         }
         source = {
             uri: prefix + src,
